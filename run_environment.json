@@ -1,0 +1,13 @@
+{
+  "python": "3.12.13",
+  "seed": 42,
+  "train_path": "/kaggle/input/competitions/GiveMeSomeCredit/cs-training.csv",
+  "test_path": "/kaggle/input/competitions/GiveMeSomeCredit/cs-test.csv",
+  "cv_scores": [
+    0.8630904187155551,
+    0.8674959557606199,
+    0.8607565262864735,
+    0.8632567669880161,
+    0.8639128380343005
+  ]
+}

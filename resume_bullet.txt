@@ -1,0 +1,1 @@
+Built a Python model to predict serious delinquency using 150,000 Kaggle borrower records. Cleaned the data, developed features, and compared Logistic Regression with LightGBM. Calibrated LightGBM achieved validation AUC 0.8592 and KS 0.5691. Compared approval cutoffs using observed outcomes and predicted probabilities under stated profit and loss assumptions.

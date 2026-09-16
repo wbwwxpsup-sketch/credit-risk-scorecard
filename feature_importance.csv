@@ -1,0 +1,17 @@
+feature,importance
+RevolvingUtilizationOfUnsecuredLines,1523
+age,1472
+MonthlyIncome,1328
+DebtRatio,1163
+NumberOfOpenCreditLinesAndLoans,968
+DebtRatio_capped,706
+NumberOfTime30-59DaysPastDueNotWorse,398
+NumberRealEstateLoansOrLines,391
+NumberOfDependents,340
+NumberOfTimes90DaysLate,285
+NumberOfTime60-89DaysPastDueNotWorse,176
+ever_late,121
+max_late_level,114
+MonthlyIncome_missing,15
+log_MonthlyIncome,0
+log_DebtRatio,0

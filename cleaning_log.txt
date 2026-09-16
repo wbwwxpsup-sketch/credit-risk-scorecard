@@ -1,0 +1,30 @@
+CLEANING AND PREPROCESSING LOG
+
+Raw training rows: 150,000
+Raw training columns: 12
+Removed the non-business row index column.
+Invalid-age rows removed: 1
+Abnormal delinquency-code rows removed: 269
+Exact duplicates removed before imputation: 565
+Retained borrower records: 149,165
+
+Raw MonthlyIncome missing values: 29,731
+Raw NumberOfDependents missing values: 3,924
+Training income median: 5,400.00
+Training dependents mode: 0
+Training debt-ratio 99th-percentile cap: 4,936.0000
+
+Income missingness was retained as a binary feature.
+Missing income was filled with the fitting-partition median.
+Missing dependent counts were filled with the fitting-partition mode.
+Imputation and feature transformations were refitted inside CV folds.
+Test records were retained; training-only row deletion was not applied to test data.
+Duplicates were identified before imputation to avoid treating a missing
+value as equivalent to an observed value that happens to equal the fill value.
+
+Training rows: 111,873
+Validation rows: 37,292
+Training target rate: 6.6191%
+Validation target rate: 6.6180%
+Model feature count: 16
+Remaining missing model-feature values: 0
